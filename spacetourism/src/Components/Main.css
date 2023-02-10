@@ -1,0 +1,79 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.subNav{
+    margin-top: 7px;
+}
+
+.subNavList{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    gap: 35px;
+    padding: 10px; 
+    font-weight: 400;  
+    cursor: pointer;
+}
+
+.planetData{
+    margin-left: 0px;
+}
+
+.moonTitle{
+    font-size: 100px;
+    font-family: serif;
+    color: #fff;
+    margin: 37px 0px 0px;
+    font-weight: 400;
+}
+
+.moonData{
+    color: #D2D8F9;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    margin: 14px 0px 0px;
+    padding: 0px 0px 54px;
+    font-weight: 400;
+    width: 80%;
+}
+
+hr{
+    border-radius: 0px solid white;
+    width: 80%;
+}
+
+.footer{
+    width: 80%;
+    margin-top: 50px;
+}
+.footerTitle, .footerDetails{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.durationTitle, .avgDistTitle{
+    color: #D2D8F9;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(210,216,249);
+    margin-top: 2px;
+}
+
+.footerDetails{
+    font-size: 28px;
+    font-family: serif;
+    margin: 12px 0px 0px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.imgData{
+    display: block;
+    margin: auto;
+}
